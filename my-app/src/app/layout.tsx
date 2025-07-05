@@ -40,7 +40,7 @@ import "./globals.css";
 
 // 2. Inisialisasi font dengan weight yang dibutuhkan
 // Kita bisa memuat beberapa weight (ketebalan) jika perlu
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], display: "swap" });
 
 export const metadata: Metadata = {
   title: "HabitSaga",
